@@ -10,3 +10,48 @@
     justify-content: center;
     gap: 10px;
 }
+
+@media screen and (max-width: 360px) {
+    
+    .correo{
+        font-size: small;
+
+    }    
+}
+
+
+/* Media query para pantallas con una dimensión horizontal inferior a 400px */
+@media screen and (max-width: 340px) {
+    .navbar-brand{
+        font-size: medium;
+
+    }
+    .correo{
+        font-size: small;
+
+    }    
+}
+
+/* Media query para pantallas con una dimensión horizontal inferior a 400px */
+@media screen and (max-width: 300px) {
+    .navbar-brand{
+        font-size:small;
+
+    }    
+    .correo{
+        font-size: small;
+
+    }    
+}
+
+@media screen and (max-width: 280px) {
+    .navbar-brand{
+        font-size:10px;
+
+    }    
+    .correo{
+        font-size: 10px;
+
+    }    
+}
+
